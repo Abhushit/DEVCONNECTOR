@@ -9,7 +9,6 @@ const connectDB = async () => {
             useNewUrlParser: true,
             useFindAndModify: false,
             useUnifiedTopology: true,
-            promiseLibrary: global.Promise
         });
 
         console.log('MongoDB Connected...');
